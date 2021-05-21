@@ -77,7 +77,12 @@ h6 {
   display: block;
   text-align: center;
   background-color:aliceblue;
+  font-size: 1rem;
+  margin: 50 200;
   
+}
+h6 a:hover {
+  color: rgba(249,204,75,1);
 }
 
 /* フッター */
@@ -85,4 +90,9 @@ footer {
   background-color:#9abca4;
   padding: 10px;
   text-align: right;
+}
+
+/*スマホ*/
+@media screen (max-width: 640px) {
+  
 }
