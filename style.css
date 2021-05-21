@@ -1,0 +1,88 @@
+body {
+  margin: 0 auto;
+}
+/*タイトル*/
+header {
+  background-color: #9abca4;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px;
+}
+/*月別ボタンリスト*/
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+li {
+  list-style: none;
+  border: solid;
+  border-width: 1px;
+  border-style: dashed;
+  text-align: center;
+}
+/*リストボタン*/
+.list-btn {
+  background-color: #e6d9b9;
+  width: 15%;
+  margin: 0 3px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  border-color: #655D50;
+}
+/*画像のメインボックス*/
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:left;
+  margin: 20px 50px;
+}
+.main section {
+  margin: 10px;
+  border-radius: 5px;
+  background: rgba(249,204,75,0.5);
+  padding: 15px;
+}
+
+/*ダウンロードボタン*/
+.main p {
+  display: block;
+  background-color: white;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 5px;
+  margin: 40px 20px 10px 20px;
+}
+/*画像*/
+img {
+  width: 150px;
+}
+/*link btn*/
+a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+.list-btn a:hover {
+  background-color: rgba(249,204,75,1);
+  border-radius: 10px;
+  
+}
+.list-btn a:visited {
+  color: #A4A699;
+}
+/* ホームボタン */
+h6 {
+  display: block;
+  text-align: center;
+  background-color:aliceblue;
+  
+}
+
+/* フッター */
+footer {
+  background-color:#9abca4;
+  padding: 10px;
+  text-align: right;
+}
