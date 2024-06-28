@@ -66,6 +66,7 @@ header
   width: 50px;
   height: 35px;
   font-weight: 600;
+  color: #2b1317;
 }
 .header__nav-button:hover {
   cursor: pointer;
